@@ -13,8 +13,10 @@ However, if further data analysis is needed, an alternate output is available: N
 The default output looks much prettier in the JSS, but the alternative output may be more useful. 
 
 To use the alternate output, simply comment out line:
+
 `echo -e "Name: $reportedName \nVersion: $version \nID: $extID \n" `
 
 And uncomment line:
+
 `echo -e "$reportedName;$version;$extID"`
 
